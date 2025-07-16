@@ -1,22 +1,16 @@
-/// <reference types="vite/client" />
-
-// Imágenes comunes
 declare module "*.png" {
-  const src: string;
-
+  const value: string;
+  export default value;
 }
-
 declare module "*.jpg" {
-  const src: string;
- 
+  const value: string;
+  export default value;
 }
-
 declare module "*.jpeg" {
-  const src: string;
-
+  const value: string;
+  export default value;
 }
-
 declare module "*.svg" {
-  const src: string;
-
+  const value: string;
+  export default value;
 }

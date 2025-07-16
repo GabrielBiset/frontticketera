@@ -28,6 +28,7 @@
     "react-icons": "^5.5.0",
     "react-router-dom": "^7.6.1",
     "react-toastify": "^11.0.5",
+    "recharts": "^3.1.0",
     "tailwind-merge": "^1.14.0",
     "ticketera-frontend-react-ts-tailwind-home-page": "file:",
     "youtube-react-ts-tailwind-home-page": "file:"

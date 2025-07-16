@@ -3,8 +3,10 @@ import { Routes, Route, useNavigate } from "react-router-dom";
 import { ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 
+
 // Componentes y datos
 import { CategoryPills } from "./components/CategoryPills";
+import ProducerDashboard from "./pages/ProducerDashboard"
 import { VideoGridItem } from "./components/VideoGridItem";
 import { categories, videos } from "./data/home";
 import { TopNavBar } from "./layouts/TopNavBar";
@@ -21,8 +23,6 @@ import CreateEventPage from "./pages/CreateEvent";
 import EventDetailPage from "./pages/EventDetail";
 import PreCompraPage from "./pages/PreCompraPage";
 import Footer from "./layouts/Footer";
-
-// Banners
 import bannerbco from "./assets/Banners/bannerbco.png";
 import banner13 from "./assets/Banners/banner13.jpg";
 import banner14 from "./assets/Banners/banner14.jpg";
@@ -78,10 +78,11 @@ export default function App() {
 
         <div className="flex-grow px-8 pb-4 text-white">
           <Routes>
-            <Route path="/" element={<HomePage />} />
+            <Route path="/" element={<HomePage />} />            
             <Route path="/ticket-test" element={<TicketPage />} />
             <Route path="/login" element={<LoginPage />} />
             <Route path="/tickets" element={<TicketsPage />} />
+            <Route path="/productores/dashboard" element={<ProducerDashboard />} />
             <Route path="/cartelera" element={<BillboardPage />} />
             <Route path="/eventos" element={<EventsPage />} />
             <Route path="/productores" element={<ProducerPage />} />

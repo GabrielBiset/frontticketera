@@ -7,8 +7,6 @@ import bannerImage6 from '../assets/Banners/banner6.jpg'
 import bannerImage7 from '../assets/Banners/banner7.jpg'
 import bannerImage8 from '../assets/Banners/banner8.jpg'
 
-
-
 export const categories = [
   "All",
   "Recitales",

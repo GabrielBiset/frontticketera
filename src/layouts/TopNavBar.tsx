@@ -10,11 +10,12 @@ export function TopNavBar() {
   const navItems = [
     { to: "/", label: "HOME" },
     { to: "/eventos", label: "EVENTOS" },
-    { to: "/cartelera", label: "CARTELERA" },
+    { to: "/cartelera", label: "CARTELERA" },  
     { to: "/tickets", label: "TICKETS" },
     { to: "/productores", label: "PRODUCTORES" },
     { to: "/contacto", label: "CONTACTO" },
-    { to: "/preguntas", label: "PREGUNTAS" },
+    { to: "/preguntas", label: "PREGUNTAS" }
+    
   ]
 
   return (
@@ -72,6 +73,9 @@ export function TopNavBar() {
         </Link>
         <Link to="/login" className="hover:text-gray-400" title="Usuario">
           <User size={24} />
+        </Link>
+        <Link to="/productores/dashboard" className="text-white px-3 hover:underline">
+         D
         </Link>
       </div>
     </nav>
