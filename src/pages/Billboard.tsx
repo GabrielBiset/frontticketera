@@ -32,6 +32,7 @@ export default function BillboardPage() {
               <li>Adecuar las preguntas frecuentes a la ticketera, porque describen a otra. ✅ Cumplido </li>
               <li>Hacer un pie de página ✅ Cumplido</li>
               <li>Ventanas emergentes que surgen luego de llenar un formulario o comprar tickets ✅ Cumplido </li>
+              <li>Prueba Beva ✅ Cumplido </li>
             </ul>
           </li>
         </ul>
